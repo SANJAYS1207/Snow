@@ -1,0 +1,46 @@
+[
+  {
+    "column_name": "REJ_STATUS",
+    "checks": [
+      {
+        "check_type": "column_accessibility",
+        "accessible": true,
+        "response_time_seconds": 0.0,
+        "accessible_rows": 49,
+        "total_rows": 49,
+        "severity": "LOW"
+      },
+      {
+        "check_type": "read_performance",
+        "count_time_seconds": 0.001,
+        "read_time_seconds": 0.001,
+        "response_time_ms": 0.51,
+        "performance_score": 100,
+        "issues": [],
+        "severity": "LOW"
+      },
+      {
+        "check_type": "file_availability",
+        "file_available": true,
+        "file_size_mb": 0.03,
+        "file_readable": true,
+        "severity": "LOW"
+      },
+      {
+        "check_type": "data_availability",
+        "total_rows": 49,
+        "available_rows": 49,
+        "availability_percentage": 100.0,
+        "data_status": "EXCELLENT",
+        "severity": "LOW"
+      }
+    ],
+    "score": 100.0,
+    "status": "passed",
+    "percentage": 100.0,
+    "accessible": true,
+    "accessible_rows": 49,
+    "total_rows": 49,
+    "response_time_ms": 0.51
+  }
+]

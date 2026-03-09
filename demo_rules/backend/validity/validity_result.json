@@ -1,0 +1,34 @@
+[
+  {
+    "dimension": "validity",
+    "column_name": "COMP_CODE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "validity",
+    "column_name": "COMP_CODE_NAME",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "validity",
+    "column_name": "TARGET_COMP_CODE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "validity",
+    "column_name": "TARGET_COMP_CODE_NAME",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  }
+]

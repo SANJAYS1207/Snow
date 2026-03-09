@@ -1,0 +1,1341 @@
+{
+  "Completeness": [
+    {
+      "column_name": "COMP_CODE",
+      "filled_rows": 49,
+      "total_rows": 49,
+      "null_rows": 0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "COMP_CODE_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE",
+      "filled_rows": 49,
+      "total_rows": 49,
+      "null_rows": 0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_CLUSTER",
+      "filled_rows": 29,
+      "total_rows": 49,
+      "null_rows": 20,
+      "percentage": 59.18,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_BPC",
+      "filled_rows": 29,
+      "total_rows": 49,
+      "null_rows": 20,
+      "percentage": 59.18,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_TYPE",
+      "filled_rows": 49,
+      "total_rows": 49,
+      "null_rows": 0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT",
+      "filled_rows": 49,
+      "total_rows": 49,
+      "null_rows": 0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_CATEGORY",
+      "filled_rows": 47,
+      "total_rows": 49,
+      "null_rows": 2,
+      "percentage": 95.92,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_SUBCATEGORY",
+      "filled_rows": 47,
+      "total_rows": 49,
+      "null_rows": 2,
+      "percentage": 95.92,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_TYPE",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "FINAL_CUSTOMER_ID",
+      "filled_rows": 43,
+      "total_rows": 49,
+      "null_rows": 6,
+      "percentage": 87.76,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "INCOTERM_ID",
+      "filled_rows": 49,
+      "total_rows": 49,
+      "null_rows": 0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "SUBCONTRACT_ID",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SAP_CONTRACT_ID",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "BUSINESS_AREA_NAME",
+      "filled_rows": 35,
+      "total_rows": 49,
+      "null_rows": 14,
+      "percentage": 71.43,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PROFIT_CTR_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PLANT_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_BPC_SBU",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CHANNEL_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SALES_GROUP_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SALES_PERSON_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER",
+      "filled_rows": 43,
+      "total_rows": 49,
+      "null_rows": 6,
+      "percentage": 87.76,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CUSTOMER_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_COUNTRY",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_COUNTRY_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_PARENT",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_GROUP",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DESTINATION_COUNTRY_NAME",
+      "filled_rows": 48,
+      "total_rows": 49,
+      "null_rows": 1,
+      "percentage": 97.96,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "SHIP_TO_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SHIP_TO_COUNTRY_NAME",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_INNOVATION",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_CLASSIFICATION",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_GRADE",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRODUCT_SUBGRADE",
+      "filled_rows": 0,
+      "total_rows": 49,
+      "null_rows": 49,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "ORIGIN_COUNTRY_NAME",
+      "filled_rows": 48,
+      "total_rows": 49,
+      "null_rows": 1,
+      "percentage": 97.96,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "POS_COUNTRY_NAME",
+      "filled_rows": 27,
+      "total_rows": 49,
+      "null_rows": 22,
+      "percentage": 55.1,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "POD_COUNTRY_NAME",
+      "filled_rows": 45,
+      "total_rows": 49,
+      "null_rows": 4,
+      "percentage": 91.84,
+      "threshold": 90,
+      "status": "passed"
+    }
+  ],
+  "Validity": [
+    {
+      "column_name": "COMP_CODE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "COMP_CODE_NAME",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE_NAME",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    }
+  ],
+  "Consistency": [
+    {
+      "column_name": "\ufeffSRCSYS",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "COMP_CODE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "COMP_CODE_NAME",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE_NAME",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CO_AREA",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_CLUSTER",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_BPC",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "SBU",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "DIVISION",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRICING_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "BUY_SELL",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CUSTOMER_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_CATEGORY",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_SUBCATEGORY",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRODUCT_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PACKING_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "MATERIAL_PROCESSING_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "QUALITY_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "SHIPMENT_BASIS",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_BASIS",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "MODE_OF_TRANSPORT",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "TRANSPORT_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "PACKING_UOM",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "WEIGHT_TERMS",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "EXCHANGE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_UOM",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_CURRENCY",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "DOC_TYPE",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "DOC_TYPE_TEXT",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    },
+    {
+      "column_name": "REJ_STATUS",
+      "score": 100.0,
+      "percentage": 100.0,
+      "threshold": 90,
+      "status": "passed"
+    }
+  ],
+  "Accuracy": [
+    {
+      "column_name": "CONTRACT_DATE_YR",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRICE_UOM",
+      "valid_values": 0,
+      "invalid_values": 49,
+      "total_values": 49,
+      "percentage": 0.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "DIFFERENTIAL_PRICE_USD_MT",
+      "valid_values": 10,
+      "invalid_values": 0,
+      "total_values": 10,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FIXED_CONTRACT_VALUE",
+      "valid_values": 39,
+      "invalid_values": 0,
+      "total_values": 39,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NET_VALUE",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NET_VALUE_USD",
+      "valid_values": 47,
+      "invalid_values": 0,
+      "total_values": 47,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FX_RATE",
+      "valid_values": 2,
+      "invalid_values": 0,
+      "total_values": 2,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "DIFFERENTIAL_PRICE",
+      "valid_values": 10,
+      "invalid_values": 0,
+      "total_values": 10,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRICING_NUMBER",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_ITEM",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "SALES_PERSON",
+      "valid_values": 48,
+      "invalid_values": 0,
+      "total_values": 48,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "MATERIAL",
+      "valid_values": 47,
+      "invalid_values": 0,
+      "total_values": 47,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "PACKING_SIZE",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NO_OF_PACKING",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NO_OF_LOTS",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_QTY",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "DIFFERENTIAL_CONTRACT_QTY",
+      "valid_values": 10,
+      "invalid_values": 0,
+      "total_values": 10,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "FIXED_CONTRACT_QTY",
+      "valid_values": 10,
+      "invalid_values": 0,
+      "total_values": 10,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "CONTRACT_QTY_MT",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_QTY_BU",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "FIXED_PRICE",
+      "valid_values": 39,
+      "invalid_values": 0,
+      "total_values": 39,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FIXED_PRICE_USD_MT",
+      "valid_values": 39,
+      "invalid_values": 0,
+      "total_values": 39,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "OVERDLVRY_TOL",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "UNDERDLVRY_TOL",
+      "valid_values": 49,
+      "invalid_values": 0,
+      "total_values": 49,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FINAL_PRICE",
+      "valid_values": 0,
+      "invalid_values": 0,
+      "total_values": 0,
+      "percentage": 0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FXE_RATE",
+      "valid_values": 47,
+      "invalid_values": 0,
+      "total_values": 47,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "ORIGINAL_CONTRACT_QUANTITY",
+      "valid_values": 0,
+      "invalid_values": 0,
+      "total_values": 0,
+      "percentage": 0,
+      "threshold": 95,
+      "status": "passed"
+    }
+  ],
+  "Uniqueness": [
+    {
+      "column_name": "CONTRACT_NO",
+      "unique_values": 49,
+      "total_values": 49,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "INTERNAL_REFERENCE",
+      "unique_values": 23,
+      "total_values": 23,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "CONTRACT_DATE",
+      "unique_values": 45,
+      "total_values": 49,
+      "duplicates": 4,
+      "percentage": 91.84,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "SHIPMENT_START_DATE",
+      "unique_values": 17,
+      "total_values": 18,
+      "duplicates": 1,
+      "percentage": 94.44,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "DELIVERY_START_DATE",
+      "unique_values": 12,
+      "total_values": 13,
+      "duplicates": 1,
+      "percentage": 92.31,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "EXTERNAL_REFERENCE",
+      "unique_values": 22,
+      "total_values": 24,
+      "duplicates": 2,
+      "percentage": 91.67,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FINAL_CUSTOMER_ID",
+      "unique_values": 31,
+      "total_values": 43,
+      "duplicates": 12,
+      "percentage": 72.09,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "MATERIAL_DEFECTS",
+      "unique_values": 2,
+      "total_values": 2,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "BRAND",
+      "unique_values": 2,
+      "total_values": 2,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "INCOTERM_ID",
+      "unique_values": 5,
+      "total_values": 49,
+      "duplicates": 44,
+      "percentage": 10.2,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "SUBCONTRACT_ID",
+      "unique_values": 0,
+      "total_values": 0,
+      "duplicates": 0,
+      "percentage": 0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "SAP_CONTRACT_ID",
+      "unique_values": 0,
+      "total_values": 0,
+      "duplicates": 0,
+      "percentage": 0,
+      "threshold": 95,
+      "status": "failed"
+    },
+    {
+      "column_name": "DIFFERENTIAL_PRICE_USD_MT",
+      "unique_values": 10,
+      "total_values": 10,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FIXED_CONTRACT_VALUE",
+      "unique_values": 38,
+      "total_values": 39,
+      "duplicates": 1,
+      "percentage": 97.44,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NET_VALUE",
+      "unique_values": 48,
+      "total_values": 49,
+      "duplicates": 1,
+      "percentage": 97.96,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "NET_VALUE_USD",
+      "unique_values": 46,
+      "total_values": 47,
+      "duplicates": 1,
+      "percentage": 97.87,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "FX_RATE",
+      "unique_values": 2,
+      "total_values": 2,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "DIFFERENTIAL_PRICE",
+      "unique_values": 10,
+      "total_values": 10,
+      "duplicates": 0,
+      "percentage": 100.0,
+      "threshold": 95,
+      "status": "passed"
+    },
+    {
+      "column_name": "PRICING_NUMBER",
+      "unique_values": 1,
+      "total_values": 49,
+      "duplicates": 48,
+      "percentage": 2.04,
+      "threshold": 95,
+      "status": "failed"
+    }
+  ],
+  "Timeliness": [
+    {
+      "column_name": "CONTRACT_NO",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "INTERNAL_REFERENCE",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CONTRACT_DATE",
+      "score": 0,
+      "percentage": 0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CONTRACT_DATE_YM",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CONTRACT_DATE_YR",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SHIPMENT_START_DATE",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SHIPMENT_END_DATE",
+      "score": 0,
+      "percentage": 0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DELIVERY_START_DATE",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DELIVERY_END_DATE",
+      "score": 0,
+      "percentage": 0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CROP_YEAR",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "TERMINAL_MONTH",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRICE_UOM",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CREATED_BY",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CREATED_DATE",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "MODIFIED_DATE",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "MODIFIED_BY",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "ETL_LOAD_TIME",
+      "score": 0,
+      "percentage": 0.0,
+      "threshold": 90,
+      "status": "failed"
+    }
+  ],
+  "Availability": [
+    {
+      "column_name": "REJ_STATUS",
+      "accessible": true,
+      "percentage": 100.0,
+      "threshold": 99,
+      "status": "passed"
+    }
+  ],
+  "Usability": [
+    {
+      "column_name": "COMP_CODE_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "TARGET_COMP_CODE_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DOC_TYPE_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "BUSINESS_AREA_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PROFIT_CTR_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PLANT_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CHANNEL_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SALES_GROUP_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SALES_PERSON_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "CUSTOMER_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DESTINATION_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SHIP_TO_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "SHIP_TO_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "ORIGIN_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "POS_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "POD_COUNTRY_NAME",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DIVISION_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "REASON_REJ_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "MATERIAL_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "PRINT_MATERIAL_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "MATL_GROUP_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "POS_DESCRIPTION",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "POD_DESCRIPTION",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "ITEM_CATEG_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    },
+    {
+      "column_name": "DOC_CATEG_TEXT",
+      "score": 53.04,
+      "percentage": 53.04,
+      "threshold": 90,
+      "status": "failed"
+    }
+  ]
+}

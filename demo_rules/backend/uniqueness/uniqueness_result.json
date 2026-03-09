@@ -1,0 +1,596 @@
+[
+  {
+    "dimension": "uniqueness",
+    "column_name": "CONTRACT_NO",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "CONTRACT_NO"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 49,
+        "total_values": 49,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 49,
+    "total_values": 49,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "EXTERNAL_REFERENCE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "EXTERNAL_REFERENCE"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 2,
+        "unique_values": 22,
+        "total_values": 24,
+        "duplicates": 2,
+        "uniqueness_ratio": 91.67,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "EXTERNAL_REFERENCE",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "n/a",
+          "count": 3
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 91.67,
+    "unique_values": 22,
+    "total_values": 24,
+    "duplicates": 2,
+    "percentage": 91.67,
+    "score": 91.47,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "INTERNAL_REFERENCE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "INTERNAL_REFERENCE"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 23,
+        "total_values": 23,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 23,
+    "total_values": 23,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "CONTRACT_DATE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "CONTRACT_DATE"
+        ],
+        "duplicate_groups": 3,
+        "total_duplicates": 4,
+        "unique_values": 45,
+        "total_values": 49,
+        "duplicates": 4,
+        "uniqueness_ratio": 91.84,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "CONTRACT_DATE",
+        "duplicate_values": 3,
+        "top_duplicate": {
+          "value": "5/13/2019",
+          "count": 3
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 91.84,
+    "unique_values": 45,
+    "total_values": 49,
+    "duplicates": 4,
+    "percentage": 91.84,
+    "score": 91.44,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "SHIPMENT_START_DATE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "SHIPMENT_START_DATE"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 1,
+        "unique_values": 17,
+        "total_values": 18,
+        "duplicates": 1,
+        "uniqueness_ratio": 94.44,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "SHIPMENT_START_DATE",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "06-01-2022",
+          "count": 2
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 94.44,
+    "unique_values": 17,
+    "total_values": 18,
+    "duplicates": 1,
+    "percentage": 94.44,
+    "score": 94.34,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "DELIVERY_START_DATE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "DELIVERY_START_DATE"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 1,
+        "unique_values": 12,
+        "total_values": 13,
+        "duplicates": 1,
+        "uniqueness_ratio": 92.31,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "DELIVERY_START_DATE",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "06-01-2022",
+          "count": 2
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 92.31,
+    "unique_values": 12,
+    "total_values": 13,
+    "duplicates": 1,
+    "percentage": 92.31,
+    "score": 92.21,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "FINAL_CUSTOMER_ID",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "FINAL_CUSTOMER_ID"
+        ],
+        "duplicate_groups": 6,
+        "total_duplicates": 12,
+        "unique_values": 31,
+        "total_values": 43,
+        "duplicates": 12,
+        "uniqueness_ratio": 72.09,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "FINAL_CUSTOMER_ID",
+        "duplicate_values": 6,
+        "top_duplicate": {
+          "value": "1030373",
+          "count": 5
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 72.09,
+    "unique_values": 31,
+    "total_values": 43,
+    "duplicates": 12,
+    "percentage": 72.09,
+    "score": 70.89,
+    "status": "failed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "MATERIAL_DEFECTS",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "MATERIAL_DEFECTS"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 2,
+        "total_values": 2,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 2,
+    "total_values": 2,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "BRAND",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "BRAND"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 2,
+        "total_values": 2,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 2,
+    "total_values": 2,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "INCOTERM_ID",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "INCOTERM_ID"
+        ],
+        "duplicate_groups": 4,
+        "total_duplicates": 44,
+        "unique_values": 5,
+        "total_values": 49,
+        "duplicates": 44,
+        "uniqueness_ratio": 10.2,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "INCOTERM_ID",
+        "duplicate_values": 4,
+        "top_duplicate": {
+          "value": "fob",
+          "count": 20
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 10.2,
+    "unique_values": 5,
+    "total_values": 49,
+    "duplicates": 44,
+    "percentage": 10.2,
+    "score": 5.8,
+    "status": "failed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "SUBCONTRACT_ID",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "SUBCONTRACT_ID"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 0,
+        "total_values": 0,
+        "duplicates": 0,
+        "uniqueness_ratio": 0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 0,
+    "unique_values": 0,
+    "total_values": 0,
+    "duplicates": 0,
+    "percentage": 0,
+    "score": 0,
+    "status": "failed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "SAP_CONTRACT_ID",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "SAP_CONTRACT_ID"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 0,
+        "total_values": 0,
+        "duplicates": 0,
+        "uniqueness_ratio": 0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 0,
+    "unique_values": 0,
+    "total_values": 0,
+    "duplicates": 0,
+    "percentage": 0,
+    "score": 0,
+    "status": "failed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "DIFFERENTIAL_PRICE_USD_MT",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "DIFFERENTIAL_PRICE_USD_MT"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 10,
+        "total_values": 10,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 10,
+    "total_values": 10,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "FIXED_CONTRACT_VALUE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "FIXED_CONTRACT_VALUE"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 1,
+        "unique_values": 38,
+        "total_values": 39,
+        "duplicates": 1,
+        "uniqueness_ratio": 97.44,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "FIXED_CONTRACT_VALUE",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "154.322",
+          "count": 2
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 97.44,
+    "unique_values": 38,
+    "total_values": 39,
+    "duplicates": 1,
+    "percentage": 97.44,
+    "score": 97.34,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "NET_VALUE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "NET_VALUE"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 1,
+        "unique_values": 48,
+        "total_values": 49,
+        "duplicates": 1,
+        "uniqueness_ratio": 97.96,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "NET_VALUE",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "154.322",
+          "count": 2
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 97.96,
+    "unique_values": 48,
+    "total_values": 49,
+    "duplicates": 1,
+    "percentage": 97.96,
+    "score": 97.86,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "NET_VALUE_USD",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "NET_VALUE_USD"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 1,
+        "unique_values": 46,
+        "total_values": 47,
+        "duplicates": 1,
+        "uniqueness_ratio": 97.87,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "NET_VALUE_USD",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "154.322",
+          "count": 2
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 97.87,
+    "unique_values": 46,
+    "total_values": 47,
+    "duplicates": 1,
+    "percentage": 97.87,
+    "score": 97.77,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "FX_RATE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "FX_RATE"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 2,
+        "total_values": 2,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 2,
+    "total_values": 2,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "DIFFERENTIAL_PRICE",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "DIFFERENTIAL_PRICE"
+        ],
+        "duplicate_groups": 0,
+        "total_duplicates": 0,
+        "unique_values": 10,
+        "total_values": 10,
+        "duplicates": 0,
+        "uniqueness_ratio": 100.0,
+        "severity": "LOW"
+      }
+    ],
+    "uniqueness_ratio": 100.0,
+    "unique_values": 10,
+    "total_values": 10,
+    "duplicates": 0,
+    "percentage": 100.0,
+    "score": 100,
+    "status": "passed"
+  },
+  {
+    "dimension": "uniqueness",
+    "column_name": "PRICING_NUMBER",
+    "checks": [
+      {
+        "check_type": "primary_key_violations",
+        "key_columns": [
+          "PRICING_NUMBER"
+        ],
+        "duplicate_groups": 1,
+        "total_duplicates": 48,
+        "unique_values": 1,
+        "total_values": 49,
+        "duplicates": 48,
+        "uniqueness_ratio": 2.04,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "near_duplicates",
+        "column": "PRICING_NUMBER",
+        "duplicate_values": 1,
+        "top_duplicate": {
+          "value": "0",
+          "count": 49
+        },
+        "severity": "MEDIUM"
+      }
+    ],
+    "uniqueness_ratio": 2.04,
+    "unique_values": 1,
+    "total_values": 49,
+    "duplicates": 48,
+    "percentage": 2.04,
+    "score": 0,
+    "status": "failed"
+  }
+]

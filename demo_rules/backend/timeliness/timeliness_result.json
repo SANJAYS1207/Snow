@@ -1,0 +1,325 @@
+[
+  {
+    "column_name": "CONTRACT_NO",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "INTERNAL_REFERENCE",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "CONTRACT_DATE",
+    "checks": [
+      {
+        "check_type": "data_freshness",
+        "last_update": "2022-09-20",
+        "hours_since_update": 30399.59,
+        "days_since_update": 1266,
+        "freshness": "VERY_STALE",
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "30 days",
+        "stale_count": 26,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "90 days",
+        "stale_count": 26,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "365 days",
+        "stale_count": 26,
+        "severity": "LOW"
+      },
+      {
+        "check_type": "update_frequency",
+        "days_with_updates_last_30d": 0,
+        "pattern": "INFREQUENT",
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "sla_compliance",
+        "sla_requirement": "24 hour freshness",
+        "status": "VIOLATED",
+        "hours_since_update": 30399.59,
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0
+  },
+  {
+    "column_name": "CONTRACT_DATE_YM",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "CONTRACT_DATE_YR",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "SHIPMENT_START_DATE",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "SHIPMENT_END_DATE",
+    "checks": [
+      {
+        "check_type": "data_freshness",
+        "last_update": "2022-11-15",
+        "hours_since_update": 29055.59,
+        "days_since_update": 1210,
+        "freshness": "VERY_STALE",
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "30 days",
+        "stale_count": 18,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "90 days",
+        "stale_count": 18,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "365 days",
+        "stale_count": 18,
+        "severity": "LOW"
+      },
+      {
+        "check_type": "update_frequency",
+        "days_with_updates_last_30d": 0,
+        "pattern": "INFREQUENT",
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "sla_compliance",
+        "sla_requirement": "24 hour freshness",
+        "status": "VIOLATED",
+        "hours_since_update": 29055.59,
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0
+  },
+  {
+    "column_name": "DELIVERY_START_DATE",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "DELIVERY_END_DATE",
+    "checks": [
+      {
+        "check_type": "data_freshness",
+        "last_update": "2022-11-15",
+        "hours_since_update": 29055.59,
+        "days_since_update": 1210,
+        "freshness": "VERY_STALE",
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "30 days",
+        "stale_count": 13,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "90 days",
+        "stale_count": 13,
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "stale_records",
+        "threshold": "365 days",
+        "stale_count": 13,
+        "severity": "LOW"
+      },
+      {
+        "check_type": "update_frequency",
+        "days_with_updates_last_30d": 0,
+        "pattern": "INFREQUENT",
+        "severity": "MEDIUM"
+      },
+      {
+        "check_type": "sla_compliance",
+        "sla_requirement": "24 hour freshness",
+        "status": "VIOLATED",
+        "hours_since_update": 29055.59,
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0
+  },
+  {
+    "column_name": "CROP_YEAR",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "TERMINAL_MONTH",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "PRICE_UOM",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "CREATED_BY",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "CREATED_DATE",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "MODIFIED_DATE",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "MODIFIED_BY",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  },
+  {
+    "column_name": "ETL_LOAD_TIME",
+    "checks": [
+      {
+        "check_type": "no_timestamp_data",
+        "message": "Column does not contain timestamp data",
+        "severity": "HIGH"
+      }
+    ],
+    "score": 0,
+    "status": "failed",
+    "percentage": 0.0
+  }
+]

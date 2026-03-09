@@ -1,0 +1,266 @@
+[
+  {
+    "dimension": "consistency",
+    "column_name": "\ufeffSRCSYS",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "COMP_CODE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "COMP_CODE_NAME",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "TARGET_COMP_CODE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "TARGET_COMP_CODE_NAME",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CO_AREA",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT_CLUSTER",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT_BPC",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "SBU",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "DIVISION",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRICING_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "BUY_SELL",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CONTRACT_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CUSTOMER_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT_CATEGORY",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT_SUBCATEGORY",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PRODUCT_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PACKING_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "MATERIAL_PROCESSING_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "QUALITY_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "SHIPMENT_BASIS",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CONTRACT_BASIS",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "MODE_OF_TRANSPORT",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "TRANSPORT_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "PACKING_UOM",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "WEIGHT_TERMS",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "EXCHANGE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CONTRACT_UOM",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "CONTRACT_CURRENCY",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "DOC_TYPE",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "DOC_TYPE_TEXT",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "consistency",
+    "column_name": "REJ_STATUS",
+    "checks": [],
+    "score": 100.0,
+    "percentage": 100.0,
+    "status": "passed"
+  }
+]

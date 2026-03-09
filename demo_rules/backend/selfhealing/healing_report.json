@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-03-09T15:35:51.143052",
+  "current_score": 69.37,
+  "target_score": 90.0,
+  "improvement_needed": 20.63,
+  "total_violations": 5,
+  "sql_fixable_violations": 5,
+  "auto_actions": [],
+  "review_actions": [
+    {
+      "id": 1,
+      "dimension": "ACCURACY",
+      "approach": "Implement outlier detection and enforce business rule validations using thresholds and constraints.",
+      "criticality": "HIGH",
+      "effort": "MEDIUM",
+      "improvement": "1.11%",
+      "columns": [
+        "CONTRACT_DATE_YR",
+        "PRICE_UOM",
+        "DIFFERENTIAL_PRICE_USD_MT",
+        "FIXED_CONTRACT_VALUE",
+        "NET_VALUE"
+      ],
+      "reason": "Outliers and rule violations are causing inaccuracies in calculations and reporting.",
+      "confidence": 75,
+      "sql_queries": [
+        "ALTER TABLE data_table ADD CONSTRAINT chk_PRICE_UOM_range CHECK (PRICE_UOM BETWEEN 0 AND 999999999);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_DIFFERENTIAL_PRICE_USD_MT_range CHECK (DIFFERENTIAL_PRICE_USD_MT BETWEEN 0 AND 999999999);"
+      ],
+      "status": "PENDING",
+      "action_type": "REVIEW"
+    },
+    {
+      "id": 2,
+      "dimension": "COMPLETENESS",
+      "approach": "Implement data validation rules, enforce mandatory fields, and backfill missing values using domain knowledge or reference data.",
+      "criticality": "CRITICAL",
+      "effort": "HIGH",
+      "improvement": "50-60%",
+      "columns": [
+        "COMP_CODE",
+        "COMP_CODE_NAME",
+        "TARGET_COMP_CODE",
+        "TARGET_COMP_CODE_NAME",
+        "PRODUCT_CLUSTER"
+      ],
+      "reason": "Missing values impact data integrity, reporting accuracy, and downstream processes.",
+      "confidence": 50,
+      "sql_queries": [
+        "ALTER TABLE data_table ADD CONSTRAINT chk_COMP_CODE_not_null CHECK (COMP_CODE IS NOT NULL);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_COMP_CODE_NAME_not_null CHECK (COMP_CODE_NAME IS NOT NULL);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_TARGET_COMP_CODE_not_null CHECK (TARGET_COMP_CODE IS NOT NULL);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_TARGET_COMP_CODE_NAME_not_null CHECK (TARGET_COMP_CODE_NAME IS NOT NULL);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_PRODUCT_CLUSTER_not_null CHECK (PRODUCT_CLUSTER IS NOT NULL);"
+      ],
+      "status": "PENDING",
+      "action_type": "REVIEW"
+    },
+    {
+      "id": 3,
+      "dimension": "TIMELINESS",
+      "approach": "Implement automated data refresh mechanisms and validate ETL processes to ensure timely updates.",
+      "criticality": "CRITICAL",
+      "effort": "HIGH",
+      "improvement": "85-90%",
+      "columns": [
+        "CONTRACT_NO",
+        "INTERNAL_REFERENCE",
+        "CONTRACT_DATE",
+        "CONTRACT_DATE_YM",
+        "CONTRACT_DATE_YR"
+      ],
+      "reason": "Data is outdated due to delayed ETL processes or missing refresh schedules, impacting decision-making and reporting accuracy.",
+      "confidence": 50,
+      "sql_queries": [
+        "ALTER TABLE data_table ADD CONSTRAINT chk_CONTRACT_DATE_not_future CHECK (CONTRACT_DATE <= CURRENT_DATE);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_CONTRACT_DATE_YM_not_future CHECK (CONTRACT_DATE_YM <= CURRENT_DATE);",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_CONTRACT_DATE_YR_not_future CHECK (CONTRACT_DATE_YR <= CURRENT_DATE);"
+      ],
+      "status": "PENDING",
+      "action_type": "REVIEW"
+    },
+    {
+      "id": 4,
+      "dimension": "UNIQUENESS",
+      "approach": "Identify and remove duplicate records, enforce primary key constraints, and validate unique values in the specified columns.",
+      "criticality": "HIGH",
+      "effort": "MEDIUM",
+      "improvement": "10-15%",
+      "columns": [
+        "CONTRACT_NO",
+        "INTERNAL_REFERENCE",
+        "CONTRACT_DATE",
+        "SHIPMENT_START_DATE",
+        "DELIVERY_START_DATE"
+      ],
+      "reason": "Duplicate values and primary key violations reduce data integrity and hinder accurate analysis.",
+      "confidence": 80,
+      "sql_queries": [
+        "CREATE UNIQUE INDEX idx_CONTRACT_NO_unique ON data_table(CONTRACT_NO);",
+        "CREATE UNIQUE INDEX idx_INTERNAL_REFERENCE_unique ON data_table(INTERNAL_REFERENCE);",
+        "CREATE UNIQUE INDEX idx_CONTRACT_DATE_unique ON data_table(CONTRACT_DATE);",
+        "CREATE UNIQUE INDEX idx_SHIPMENT_START_DATE_unique ON data_table(SHIPMENT_START_DATE);",
+        "CREATE UNIQUE INDEX idx_DELIVERY_START_DATE_unique ON data_table(DELIVERY_START_DATE);"
+      ],
+      "status": "PENDING",
+      "action_type": "REVIEW"
+    },
+    {
+      "id": 5,
+      "dimension": "USABILITY",
+      "approach": "Standardize naming conventions and ensure accessibility compliance (e.g., consistent casing, removal of special characters, and alignment with accessibility guidelines).",
+      "criticality": "HIGH",
+      "effort": "MEDIUM",
+      "improvement": "25-30%",
+      "columns": [
+        "COMP_CODE_NAME",
+        "TARGET_COMP_CODE_NAME",
+        "DOC_TYPE_TEXT",
+        "BUSINESS_AREA_NAME",
+        "PROFIT_CTR_NAME"
+      ],
+      "reason": "Inconsistent naming conventions and accessibility issues hinder usability and data interpretation.",
+      "confidence": 70,
+      "sql_queries": [
+        "ALTER TABLE data_table ADD CONSTRAINT chk_COMP_CODE_NAME_standardized CHECK (COMP_CODE_NAME = UPPER(TRIM(COMP_CODE_NAME)));",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_TARGET_COMP_CODE_NAME_standardized CHECK (TARGET_COMP_CODE_NAME = UPPER(TRIM(TARGET_COMP_CODE_NAME)));",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_DOC_TYPE_TEXT_standardized CHECK (DOC_TYPE_TEXT = UPPER(TRIM(DOC_TYPE_TEXT)));",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_BUSINESS_AREA_NAME_standardized CHECK (BUSINESS_AREA_NAME = UPPER(TRIM(BUSINESS_AREA_NAME)));",
+        "ALTER TABLE data_table ADD CONSTRAINT chk_PROFIT_CTR_NAME_standardized CHECK (PROFIT_CTR_NAME = UPPER(TRIM(PROFIT_CTR_NAME)));"
+      ],
+      "status": "PENDING",
+      "action_type": "REVIEW"
+    }
+  ],
+  "summary": {
+    "auto_count": 0,
+    "review_count": 5,
+    "total_sql_queries": 20
+  }
+}

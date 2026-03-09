@@ -1,0 +1,384 @@
+[
+  {
+    "dimension": "accuracy",
+    "column_name": "CONTRACT_ITEM",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "SALES_PERSON",
+    "checks": [],
+    "valid_values": 48,
+    "invalid_values": 0,
+    "total_values": 48,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "CONTRACT_DATE_YR",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "MATERIAL",
+    "checks": [],
+    "valid_values": 47,
+    "invalid_values": 0,
+    "total_values": 47,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "PACKING_SIZE",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "NO_OF_PACKING",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "NO_OF_LOTS",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "CONTRACT_QTY",
+    "checks": [
+      {
+        "check_type": "statistical_outliers",
+        "column": "CONTRACT_QTY",
+        "outlier_count": 5,
+        "lower_bound": -55.0,
+        "upper_bound": 93.72,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 89.8,
+    "status": "failed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "DIFFERENTIAL_CONTRACT_QTY",
+    "checks": [
+      {
+        "check_type": "business_rule_violation",
+        "rule": "DIFFERENTIAL_CONTRACT_QTY > 0",
+        "column": "DIFFERENTIAL_CONTRACT_QTY",
+        "violations": 6,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "statistical_outliers",
+        "column": "DIFFERENTIAL_CONTRACT_QTY",
+        "outlier_count": 1,
+        "lower_bound": -56.93,
+        "upper_bound": 94.88,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 10,
+    "invalid_values": 0,
+    "total_values": 10,
+    "percentage": 100.0,
+    "score": 30.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FIXED_CONTRACT_QTY",
+    "checks": [
+      {
+        "check_type": "business_rule_violation",
+        "rule": "FIXED_CONTRACT_QTY > 0",
+        "column": "FIXED_CONTRACT_QTY",
+        "violations": 4,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "statistical_outliers",
+        "column": "FIXED_CONTRACT_QTY",
+        "outlier_count": 2,
+        "lower_bound": -57.6,
+        "upper_bound": 96.0,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 10,
+    "invalid_values": 0,
+    "total_values": 10,
+    "percentage": 100.0,
+    "score": 40.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "CONTRACT_QTY_MT",
+    "checks": [
+      {
+        "check_type": "statistical_outliers",
+        "column": "CONTRACT_QTY_MT",
+        "outlier_count": 4,
+        "lower_bound": -43.07,
+        "upper_bound": 73.84,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 91.84,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "CONTRACT_QTY_BU",
+    "checks": [
+      {
+        "check_type": "business_rule_violation",
+        "rule": "CONTRACT_QTY_BU > 0",
+        "column": "CONTRACT_QTY_BU",
+        "violations": 49,
+        "severity": "HIGH"
+      }
+    ],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 0,
+    "status": "failed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FIXED_PRICE",
+    "checks": [
+      {
+        "check_type": "statistical_outliers",
+        "column": "FIXED_PRICE",
+        "outlier_count": 2,
+        "lower_bound": -1250.0,
+        "upper_bound": 2350.0,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 39,
+    "invalid_values": 0,
+    "total_values": 39,
+    "percentage": 100.0,
+    "score": 94.87,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "DIFFERENTIAL_PRICE_USD_MT",
+    "checks": [],
+    "valid_values": 10,
+    "invalid_values": 0,
+    "total_values": 10,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FIXED_PRICE_USD_MT",
+    "checks": [
+      {
+        "check_type": "statistical_outliers",
+        "column": "FIXED_PRICE_USD_MT",
+        "outlier_count": 2,
+        "lower_bound": -10064.0,
+        "upper_bound": 17361.22,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 39,
+    "invalid_values": 0,
+    "total_values": 39,
+    "percentage": 100.0,
+    "score": 94.87,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "PRICE_UOM",
+    "checks": [],
+    "valid_values": 0,
+    "invalid_values": 49,
+    "total_values": 49,
+    "percentage": 0.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FIXED_CONTRACT_VALUE",
+    "checks": [],
+    "valid_values": 39,
+    "invalid_values": 0,
+    "total_values": 39,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "NET_VALUE",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "NET_VALUE_USD",
+    "checks": [],
+    "valid_values": 47,
+    "invalid_values": 0,
+    "total_values": 47,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "OVERDLVRY_TOL",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "UNDERDLVRY_TOL",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FX_RATE",
+    "checks": [],
+    "valid_values": 2,
+    "invalid_values": 0,
+    "total_values": 2,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "DIFFERENTIAL_PRICE",
+    "checks": [
+      {
+        "check_type": "statistical_outliers",
+        "column": "DIFFERENTIAL_PRICE",
+        "outlier_count": 2,
+        "lower_bound": -40.75,
+        "upper_bound": 81.25,
+        "severity": "MEDIUM"
+      }
+    ],
+    "valid_values": 10,
+    "invalid_values": 0,
+    "total_values": 10,
+    "percentage": 100.0,
+    "score": 80.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FINAL_PRICE",
+    "checks": [],
+    "valid_values": 0,
+    "invalid_values": 0,
+    "total_values": 0,
+    "percentage": 0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "FXE_RATE",
+    "checks": [],
+    "valid_values": 47,
+    "invalid_values": 0,
+    "total_values": 47,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "ORIGINAL_CONTRACT_QUANTITY",
+    "checks": [],
+    "valid_values": 0,
+    "invalid_values": 0,
+    "total_values": 0,
+    "percentage": 0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "accuracy",
+    "column_name": "PRICING_NUMBER",
+    "checks": [],
+    "valid_values": 49,
+    "invalid_values": 0,
+    "total_values": 49,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  }
+]

@@ -1,0 +1,868 @@
+[
+  {
+    "dimension": "completeness",
+    "column_name": "BUSINESS_AREA_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "BUSINESS_AREA_NAME",
+        "total_rows": 49,
+        "non_null_rows": 35,
+        "null_rows": 14,
+        "null_percentage": 28.57,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 35,
+    "total_rows": 49,
+    "null_rows": 14,
+    "null_percentage": 28.57,
+    "percentage": 71.43,
+    "score": 85.72,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "COMP_CODE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "COMP_CODE",
+        "total_rows": 49,
+        "non_null_rows": 49,
+        "null_rows": 0,
+        "null_percentage": 0.0,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 49,
+    "total_rows": 49,
+    "null_rows": 0,
+    "null_percentage": 0.0,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "COMP_CODE_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "COMP_CODE_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "required_field_coverage",
+        "column": "COMP_CODE_NAME",
+        "violations": 49,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 70.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "TARGET_COMP_CODE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "TARGET_COMP_CODE",
+        "total_rows": 49,
+        "non_null_rows": 49,
+        "null_rows": 0,
+        "null_percentage": 0.0,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 49,
+    "total_rows": 49,
+    "null_rows": 0,
+    "null_percentage": 0.0,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "TARGET_COMP_CODE_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "TARGET_COMP_CODE_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "required_field_coverage",
+        "column": "TARGET_COMP_CODE_NAME",
+        "violations": 49,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 70.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PROFIT_CTR_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PROFIT_CTR_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PLANT_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PLANT_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_CLUSTER",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_CLUSTER",
+        "total_rows": 49,
+        "non_null_rows": 29,
+        "null_rows": 20,
+        "null_percentage": 40.82,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 29,
+    "total_rows": 49,
+    "null_rows": 20,
+    "null_percentage": 40.82,
+    "percentage": 59.18,
+    "score": 79.59,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_BPC",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_BPC",
+        "total_rows": 49,
+        "non_null_rows": 29,
+        "null_rows": 20,
+        "null_percentage": 40.82,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 29,
+    "total_rows": 49,
+    "null_rows": 20,
+    "null_percentage": 40.82,
+    "percentage": 59.18,
+    "score": 79.59,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_BPC_SBU",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_BPC_SBU",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CHANNEL_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CHANNEL_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SALES_GROUP_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SALES_GROUP_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SALES_PERSON_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SALES_PERSON_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER",
+        "total_rows": 49,
+        "non_null_rows": 43,
+        "null_rows": 6,
+        "null_percentage": 12.24,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 43,
+    "total_rows": 49,
+    "null_rows": 6,
+    "null_percentage": 12.24,
+    "percentage": 87.76,
+    "score": 93.88,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_COUNTRY",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_COUNTRY",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_PARENT",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_PARENT",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_GROUP",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_GROUP",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "CUSTOMER_TYPE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "CUSTOMER_TYPE",
+        "total_rows": 49,
+        "non_null_rows": 49,
+        "null_rows": 0,
+        "null_percentage": 0.0,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 49,
+    "total_rows": 49,
+    "null_rows": 0,
+    "null_percentage": 0.0,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "DESTINATION_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "DESTINATION_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 48,
+        "null_rows": 1,
+        "null_percentage": 2.04,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 48,
+    "total_rows": 49,
+    "null_rows": 1,
+    "null_percentage": 2.04,
+    "percentage": 97.96,
+    "score": 98.98,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SHIP_TO_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SHIP_TO_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SHIP_TO_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SHIP_TO_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "FINAL_CUSTOMER_ID",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "FINAL_CUSTOMER_ID",
+        "total_rows": 49,
+        "non_null_rows": 43,
+        "null_rows": 6,
+        "null_percentage": 12.24,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "required_field_coverage",
+        "column": "FINAL_CUSTOMER_ID",
+        "violations": 6,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 43,
+    "total_rows": 49,
+    "null_rows": 6,
+    "null_percentage": 12.24,
+    "percentage": 87.76,
+    "score": 91.94,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT",
+        "total_rows": 49,
+        "non_null_rows": 49,
+        "null_rows": 0,
+        "null_percentage": 0.0,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 49,
+    "total_rows": 49,
+    "null_rows": 0,
+    "null_percentage": 0.0,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_INNOVATION",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_INNOVATION",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_CATEGORY",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_CATEGORY",
+        "total_rows": 49,
+        "non_null_rows": 47,
+        "null_rows": 2,
+        "null_percentage": 4.08,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 47,
+    "total_rows": 49,
+    "null_rows": 2,
+    "null_percentage": 4.08,
+    "percentage": 95.92,
+    "score": 97.96,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_CLASSIFICATION",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_CLASSIFICATION",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_GRADE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_GRADE",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_SUBCATEGORY",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_SUBCATEGORY",
+        "total_rows": 49,
+        "non_null_rows": 47,
+        "null_rows": 2,
+        "null_percentage": 4.08,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 47,
+    "total_rows": 49,
+    "null_rows": 2,
+    "null_percentage": 4.08,
+    "percentage": 95.92,
+    "score": 97.96,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_SUBGRADE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_SUBGRADE",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "PRODUCT_TYPE",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "PRODUCT_TYPE",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 50.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "ORIGIN_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "ORIGIN_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 48,
+        "null_rows": 1,
+        "null_percentage": 2.04,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 48,
+    "total_rows": 49,
+    "null_rows": 1,
+    "null_percentage": 2.04,
+    "percentage": 97.96,
+    "score": 98.98,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "INCOTERM_ID",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "INCOTERM_ID",
+        "total_rows": 49,
+        "non_null_rows": 49,
+        "null_rows": 0,
+        "null_percentage": 0.0,
+        "severity": "LOW"
+      }
+    ],
+    "filled_rows": 49,
+    "total_rows": 49,
+    "null_rows": 0,
+    "null_percentage": 0.0,
+    "percentage": 100.0,
+    "score": 100.0,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "POS_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "POS_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 27,
+        "null_rows": 22,
+        "null_percentage": 44.9,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 27,
+    "total_rows": 49,
+    "null_rows": 22,
+    "null_percentage": 44.9,
+    "percentage": 55.1,
+    "score": 77.55,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "POD_COUNTRY_NAME",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "POD_COUNTRY_NAME",
+        "total_rows": 49,
+        "non_null_rows": 45,
+        "null_rows": 4,
+        "null_percentage": 8.16,
+        "severity": "MEDIUM"
+      }
+    ],
+    "filled_rows": 45,
+    "total_rows": 49,
+    "null_rows": 4,
+    "null_percentage": 8.16,
+    "percentage": 91.84,
+    "score": 95.92,
+    "status": "passed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SUBCONTRACT_ID",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SUBCONTRACT_ID",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "required_field_coverage",
+        "column": "SUBCONTRACT_ID",
+        "violations": 49,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 70.0,
+    "status": "failed"
+  },
+  {
+    "dimension": "completeness",
+    "column_name": "SAP_CONTRACT_ID",
+    "checks": [
+      {
+        "check_type": "null_percentage",
+        "column": "SAP_CONTRACT_ID",
+        "total_rows": 49,
+        "non_null_rows": 0,
+        "null_rows": 49,
+        "null_percentage": 100.0,
+        "severity": "HIGH"
+      },
+      {
+        "check_type": "required_field_coverage",
+        "column": "SAP_CONTRACT_ID",
+        "violations": 49,
+        "severity": "HIGH"
+      }
+    ],
+    "filled_rows": 0,
+    "total_rows": 49,
+    "null_rows": 49,
+    "null_percentage": 100.0,
+    "percentage": 0.0,
+    "score": 70.0,
+    "status": "failed"
+  }
+]

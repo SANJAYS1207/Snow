@@ -1,0 +1,422 @@
+{
+  "overall_quality_score": 65.07,
+  "dimension_scores": {
+    "Completeness": 36.23,
+    "Validity": 100.0,
+    "Consistency": 99.99,
+    "Accuracy": 96.55,
+    "Uniqueness": 33.41,
+    "Timeliness": 0.0,
+    "Availability": 100.0,
+    "Usability": 54.4
+  },
+  "critical_columns_with_actions": [
+    {
+      "column_name": "SUBCONTRACT_ID",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Uniqueness",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "CHANNEL_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "SALES_GROUP_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "CUSTOMER_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "CUSTOMER_COUNTRY_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "SHIP_TO_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "SHIP_TO_COUNTRY_NAME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 27.2,
+      "impact_score": 72.8,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "PRODUCT_BPC_SBU",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CUSTOMER_COUNTRY",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CUSTOMER_PARENT",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CUSTOMER_GROUP",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "PRODUCT_INNOVATION",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "PRODUCT_CLASSIFICATION",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "PRODUCT_GRADE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "PRODUCT_SUBGRADE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "PRICE_UOM",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "INTERNAL_REFERENCE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CONTRACT_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CONTRACT_DATE_YM",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "SHIPMENT_START_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "SHIPMENT_END_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "DELIVERY_START_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "DELIVERY_END_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CROP_YEAR",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "TERMINAL_MONTH",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CREATED_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "MODIFIED_DATE",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0,
+      "impact_score": 100,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "MODIFIED_BY",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "ETL_LOAD_TIME",
+      "risk_score": 100,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 0.0,
+      "impact_score": 100.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CONTRACT_NO",
+      "risk_score": 72.05,
+      "dimensions_failed": [
+        "Timeliness",
+        "Uniqueness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 48.53,
+      "impact_score": 51.47,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "PLANT_NAME",
+      "risk_score": 67.68,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 51.66,
+      "impact_score": 48.34,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "SALES_PERSON_NAME",
+      "risk_score": 67.14,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 52.04,
+      "impact_score": 47.96,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "PROFIT_CTR_NAME",
+      "risk_score": 66.08,
+      "dimensions_failed": [
+        "Usability",
+        "Completeness"
+      ],
+      "failure_count": 2,
+      "avg_percentage": 52.8,
+      "impact_score": 47.2,
+      "urgency_score": 25.0
+    },
+    {
+      "column_name": "PRODUCT_TYPE",
+      "risk_score": 60.0,
+      "dimensions_failed": [
+        "Completeness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 50.0,
+      "impact_score": 50.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CREATED_BY",
+      "risk_score": 60.0,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 50.0,
+      "impact_score": 50.0,
+      "urgency_score": 12.5
+    },
+    {
+      "column_name": "CONTRACT_DATE_YR",
+      "risk_score": 60.0,
+      "dimensions_failed": [
+        "Timeliness"
+      ],
+      "failure_count": 1,
+      "avg_percentage": 50.0,
+      "impact_score": 50.0,
+      "urgency_score": 12.5
+    }
+  ]
+}
